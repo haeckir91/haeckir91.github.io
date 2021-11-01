@@ -158,6 +158,19 @@ a.one:hover {color:#0000ff;}
 #internships .content{overflow:auto;}
 #internships.col-mid{margin:0px 65px;}
 
+
+/****************************************************/
+/* WORK SECTION */
+/****************************************************/
+
+#patents{margin:0px 43px; padding-top:115px;}
+#patents .col{
+	width:235px;
+	float:left;
+}
+#patents .content{overflow:auto;}
+#patents.col-mid{margin:0px 65px;}
+
 /****************************************************/
 /* CONNECT SECTION */
 /****************************************************/

@@ -8,7 +8,7 @@
 <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3"></script>	
+<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3"></script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 
@@ -21,10 +21,10 @@
 	<div id="title">
 		<h1>Roni Häcki</h1> <h2>PhD Candidate, Systems Group, ETH Zürich</h2>
 	</div>
-	<ul id="main-menu">	
-    	<li><a href="#about">About Me</a></li>
+	<ul id="main-menu">
+  <li><a href="#about">About Me</a></li>
 	<li><a href="#publications">Publications</a></li>
-        <li><a href="#education">Education</a></li>
+  <li><a href="#education">Education</a></li>
 	<li><a href="#teaching">Teaching</a></li>
 	<li><a href="#contact">Contact</a></li>
     </ul>
@@ -37,77 +37,102 @@
     	<!-- <h1>About Me</h1> -->
 
         </ul>
- 
+
 	<h1> About Me</h1>
         <div class="top-divider"></div>
         <div class="content">
-        	<img src="images/roni.jpg" height="35%" width="35%"/>
+        	<img src="images/roni.jpg" height="39%" width="39%"/>
             <h2>My Name is Roni Häcki</h2>
-
-            <p>I'm a PhD student at the Systems Group at ETH Zürich under the supervision of Prof. Timothy Roscoe since December 2015. I graduated from ETH Zürich in 2015 with a MSc in Computer Science with specialisation in Distributed Systems. </p> 
-            <p>I'm part of the Barrelfish team. Barrelfish is a research operating system driven by the two problems of scalability for multi- and many-core systems and heterogeneous system hardware. Barrelfish treats a single machine as a distributed system. In consequence, techniques of distributed systems can be applied.</p> 
-            <p>My current key research interest is developing a network stack with predictable latency based on a systematical approach. Current state-of-the-art network stacks used in industry often experience high tail latency.
-			Proposed solutions in research in most cases identified the causes of tail latency using a large a mount of manual labor and trial and error. For the rapidly changing networking hardware and software around it, this approach is not a solution. A more systematical and automated approach is needed to identify causes of high tail latency and proposing solutions to these problems.</p> 
+            <p>I'm about to finish my PhD in the Systems Group at ETH Zürich under the supervision of Prof. Timothy Roscoe. I graduated from ETH Zürich in 2015 with a MSc in Computer Science with specialisation in Distributed Systems. </p>
+						<p>I’m interested in operating systems, networking, and formal verification. My research so far focuses on development of tools and frameworks to facilitate reasoning about performance and correctness of intra-machine data transfer primarily, but not exclusively, in the context of network stacks. The developed tools can help in building correct and predictable high-performance systems based on a systematic approach. <p>
+            <!--<p>I'm part of the Barrelfish team. Barrelfish is a research operating system driven by the two problems of scalability for multi- and many-core systems and heterogeneous system hardware. Barrelfish treats a single machine as a distributed system. In consequence, techniques of distributed systems can be applied.</p> -->
+            <p>My current key interest is developing a network stack with predictable latency based on the tools and frameworks I developed up to now. Current state-of-the-art network stacks used in industry often experience high tail latency. Proposed solutions in research in most cases identified the causes of tail latency using a large a mount of manual labor and trial and error. Guided by the tools I helped develop up to now, it is possible to take a more sysetematic approach to identifying causes of high tail latency and proposing solutions to these problems .</p>
         </div>
-    <div class="bottom-divider"></div> 
+    <div class="bottom-divider"></div>
     </div>
 <!--End About Section-->
 
-<!--Begin Work Section-->  
+<!--Begin Work Section-->
     <div id="publications">
     	<h1>Publications</h1>
         <div class="top-divider"></div>
+	<h2>Under Submission</h2>
+	<p> Roni Haecki, Radhika Niranjan Mysore, Lalith Suresh, Gerd Zellweger, Bo Gan, Timothy Merrifield, Sujata Banerjee, Timothy Roscoe.
+		NSight: How to diagnose nanosecond network delays in rich end-host stacks </p>
+	<h2>2021</h2>
+	<p> Reto Achermann, David Cock, Roni Haecki, Nora Hossle, Lukas Humbel, Timothy Roscoe, Daniel Schwyn.
+		Generating correct initial page tables from formal hardware descriptions (PLOS 2021) [ <a class="one" href="https://dl.acm.org/doi/pdf/10.1145/3477113.3487270"> pdf </a> ]</p>
+  <p> Lukas Humbel , Daniel Schwyn, Nora Hossle, Roni Haecki, Melissa Licciardello, Jan Schär, David Cock, Michael Giardino, Timothy Roscoe.
+		A model-checked I<sup>2</sup>C specification (SPIN 2021) [ <a class="one" href="https://www.springerprofessional.de/a-model-checked-i2c-specification/19534696"> pdf </a> ]</p>
+	<p> Daniel Goodman, Roni Haecki, Tim Harris.
+		Modeling memory bandwidth patterns on NUMA machines with performance counters (ArXiv) [ <a class="one" href="https://arxiv.org/pdf/2106.08026.pdf"> pdf </a> ]</p>
+	<p> Reto Achermann, David Cock, Roni Haecki, Nora Hossle, Lukas Humbel, Timothy Roscoe, Daniel Schwyn.
+			mmapx: Uniform memory protection in a heterogeneous world (HotOS 2021) [ <a class="one" href="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s08-achermann.pdf"> pdf </a> ]</p>
 	<h2>2019</h2>
 	<p> Roni Haecki, Lukas Humbel, Reto Achermann, David Cock, Daniel Schwyn, Timothy Roscoe. CleanQ: a lightweight, uniform, formally specified interface for intra-machine data transfer (ArXiv) [ <a class="one" href="https://arxiv.org/pdf/1911.08773.pdf"> pdf </a> ]</p>
 	<h2>2016</h2>
 	<p> Stefan Kaestle, Reto Achermann, Roni Haecki, Moritz Hoffmann, Sabela Ramons, Timothy Roscoe. Machine-aware Atomic Broadcast Trees for Multicores (OSDI 2016) [ <a class="one" href="https://www.usenix.org/system/files/conference/osdi16/osdi16-kaestle.pdf"> pdf </a> ]</p>
 	<p> Roni Häcki. Replication in Rack-scale Systems (EuroSys Doctoral Workshop 2016) [ <a class="one" href="resources/eurosys.pdf"> pdf </a> ]</p>
-		
         <div class="bottom-divider"></div>
     </div>
 <!--End Work Section-->
-<!--Begin Work Section-->  
+<!--Begin Work Section-->
     <div id="education">
     	<h1>Education</h1>
         <div class="top-divider"></div>
-		<h2> BSc Computer Science, ETH Zürich (2010-2013)</h2>
-		<p> Roni Häcki. Dedicating NIC hardware queues to applications on the Barrelfish OS. Bachelors's thesis, ETH Zürich, September 2013 <br> [ <a class="one" href="http://www.barrelfish.org/publications/ba-haeckir-solarflare.pdf"> pdf </a> ]</p>
+
+		<h2> PhD Computer Science, ETH Zürich (2015-Now)</h2>
+		<p> Roni Häcki. On Performance and Correctness of Intra-Machine Data Transfer. PhD's thesis, ETH Zürich, TBD </p>
 		<h2> MSc Computer Science, ETH Zürich (2013-2015, Specialization: Distributed Systems)</h2>
 		<p> Roni Häcki. Consensus on a multicore machine. Master's thesis, ETH Zürich, September 2015 [ <a class="one" href="http://www.barrelfish.org/publications/ma-haeckir-consensus.pdf"> pdf </a>]</p>
+		<h2> BSc Computer Science, ETH Zürich (2010-2013)</h2>
+		<p> Roni Häcki. Dedicating NIC hardware queues to applications on the Barrelfish OS. Bachelors's thesis, ETH Zürich, September 2013 <br> [ <a class="one" href="http://www.barrelfish.org/publications/ba-haeckir-solarflare.pdf"> pdf </a> ]</p>
         <div class="bottom-divider"></div>
     </div>
 <!--End Work Section-->
-<!--Begin Work Section-->  
+<!--Begin Work Section-->
     <div id="internships">
     	<h1>Internships</h1>
         <div class="top-divider"></div>
 		<h2> VMware Research Palo Alto USA (summer 2019)</h2>
-		<p> Rubik: Investigating Tail Latency at End-hosts</p>
+		<p> Gazelle: towards predictable low latency neworks</p>
+		<p> Continued collaboration to build NSight</p>
 		<h2> Oracle Labs Cambridge UK (summer 2017)</h2>
 		<p> Extending Pandia [ <a class="one" href="https://dl.acm.org/citation.cfm?id=3064177"> main paper </a>]</p>
 		<div class="bottom-divider"></div>
     </div>
+
 <!--End Work Section-->
-<!--Begin Experience Section-->   
+<!--Begin Work Section-->
+		<div id="patents">
+    	<h1>Patents</h1>
+    		<div class="top-divider"></div>
+		<h2> Detection, modeling and application of memory bandwith patterns (April 2014)</h2>
+		<p> Daniel Goodman, Roni Haecki, Timothy Harris (US 20200125411 A1) [ <a class="one" href="https://uspto.report/patent/grant/10,871,996"> link </a>]</p>
+		<div class="bottom-divider"></div>
+    </div>
+<!--End Work Section-->
+
+<!--Begin Experience Section-->
     <div id="teaching">
     	<h1>Teaching</h1>
         <div class="top-divider"></div>
 		<h2>Informal Methods</h2>
-		<p> Fall 2019. Formal methods are increasingly a key part of the methodological toolkit of systems programmers - those writing operating systems, databases, and distributed systems. This course is about how to apply concepts, techniques, and principles from formal methods to such software systems, and how to get into the habit of thinking formally about systems design even when writing low-level C code.[ <a class="one" href="https://www.systems.ethz.ch/courses/fall2019/informalmethods"> course site </a>][ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=126502&semkez=2018W&lang=en"> course catalogue </a>]</p>
+		<p> Fall 2021, 2020, and 2019. Formal methods are increasingly a key part of the methodological toolkit of systems programmers - those writing operating systems, databases, and distributed systems. This course is about how to apply concepts, techniques, and principles from formal methods to such software systems, and how to get into the habit of thinking formally about systems design even when writing low-level C code.[ <a class="one" href="https://www.systems.ethz.ch/courses/fall2019/informalmethods"> course site </a>][ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=126502&semkez=2018W&lang=en"> course catalogue </a>]</p>
 		<p>
 		<h2>Computer Systems</h2>
 		<p> Fall 2018. 	This course is about real computer systems, and the principles on which they are designed and built. We cover both modern OSes and the large-scale distributed systems that power today's online services. We illustrate the ideas with real-world examples, but emphasize common theoretical results, practical tradeoffs, and design principles that apply across many different scales and technologies. [ <a class="one" href="https://www.systems.ethz.ch/courses/fall2018/computersystems"> course site </a>][ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lang=en&semkez=2018W&ansicht=KATALOGDATEN&lerneinheitId=125899&"> course catalogue </a>]</p>
 		<p>
 		<h2>Application-Oriented Programming with Python</h2>
-		<p> Spring 2019 and Spring 2018. This course provides important basic concepts for interdisciplinary programming projects. The programming language is Python and Matlab. [ <a class="one" href="https://www.apro.ethz.ch/course/pages/current/index.php"> course site </a>][ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lang=en&lerneinheitId=121268&semkez=2018S&"> course catalogue </a>]</p>
+		<p> Spring 2021, 2020, 2019, 2018. This course provides important basic concepts for interdisciplinary programming projects. The programming language is Python and Matlab. [ <a class="one" href="https://www.apro.ethz.ch/course/pages/current/index.php"> course site </a>][ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lang=en&lerneinheitId=121268&semkez=2018S&"> course catalogue </a>]</p>
 		<p>
-		<h2>Anwendungsnahes Programmieren mit MATLAB</h2>
-		<p> Spring 2017. Die Veranstaltung "Anwendungsnahes Programmieren mit MATLAB" vermittelt Basiswissen über die imperative Programmierung. Zusätzlich wird die Kompetenz vermittelt, dieses Wissen in Modellierungsaufgaben einzusetzen. [ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=113517&semkez=2017S&ansicht=KATALOGDATEN&lang=de"> course catalogue </a>]</p>
+		<h2>Introductory Programming in MATLAB</h2>
+		<p> Spring 2017. The lecture "Introductory Programming in MATLAB" provides a basic knowledge about imperative programming. Additionally, the students learn how to apply imperative programming in modeling of domain specific systems. [ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=113517&semkez=2017S&ansicht=KATALOGDATEN&lang=de"> course catalogue </a>]</p>
 		<p>
 		<h2>Systems Porgraming and Computer Architecture</h2>
-		<p> Fall 2016 and Fall 2017. Introduction to computer architecture and system programming:Instruction sets, 
+		<p> Fall 2017 and 2016. Introduction to computer architecture and system programming:Instruction sets,
 		    storage hiearchies, runtime structures with an emphasis on computers as engines for the execution of compiled
-		    programs. Interaction between system software and the hardware. Problems that arise from the final 
+		    programs. Interaction between system software and the hardware. Problems that arise from the final
 		    respresentation, performance measurement and tuning, and program portability issues are covered. [ <a class="one" href="http://www.systems.ethz.ch/courses/fall2016/SPCA"> course site </a>][ <a class="one" href="http://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheitPre.do?lerneinheitId=85394&semkez=2013W&lang=en"> course catalogue </a>]</p>
 		<p>
 		<h2>Parallel Programming </h2>
@@ -117,7 +142,7 @@
     </div>
 <!--End Experience Section-->
 
-<!--Begin Experience Section-->   
+<!--Begin Experience Section-->
     <div id="contact">
     	<h1>Contact</h1>
         <div class="top-divider"></div>
@@ -133,21 +158,16 @@
 				<td> roni.haecki@inf.ethz.ch </td>
 			</tr>
 			<tr>
-				<td> <img src="images/telephone.png" height="25px" width="25px"/></td>
-				<td> +41 44 632 43 28 </td>
-			</tr>
-			<tr>
 				<td> <img src="images/house.png" height="25px" width="25px"/> </td>
 				<td>  Dept. of Computer Science </td>
 			</tr>
 			<tr>
 				<td> </td>
-				<td>  CAB E 69, ETH Zürich </td>
+				<td>  SFT H 322, ETH Zürich </td>
 			</tr>
 			<tr>
-
 				<td> </td>
-				<td>  Universitätstrasse 6 </td>
+				<td>  Stampfenbachstrasse 114 </td>
 			</tr>
 			<tr>
 
@@ -168,12 +188,12 @@
 
 
 
- <!-- The JavaScript -->  
+ <!-- The JavaScript -->
         <script type="text/javascript">
     		$(function() {
                 $('#main-menu li a').bind('click',function(event){
                     var $anchor = $(this);
-                    
+
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
                     }, 1500,'easeInOutExpo');
@@ -181,7 +201,7 @@
                     event.preventDefault();
                 });
             });
-			
+
  			 $(document).ready(function(){
     		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
   			});
